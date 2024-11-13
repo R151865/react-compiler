@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="75px" viewBox="0 0 100 75" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="100" height="75" style="fill:rgb(0%,0%,0%);fill-opacity:0.6;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="100" height="75"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,34.509805%,30.980393%);fill-opacity:1;" d="M 73.828125 64.492188 L 26.179688 64.492188 C 26.179688 64.492188 36.839844 16.839844 50.003906 16.839844 C 63.167969 16.839844 73.828125 64.492188 73.828125 64.492188 "/>
+</g>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="100" height="75" style="fill:rgb(0%,0%,0%);fill-opacity:0.6;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="100" height="75"/>
+</clipPath>
+<g id="surface8" clip-path="url(#clip2)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(33.333334%,69.01961%,100%);fill-opacity:1;" d="M 26.171875 10.507812 L 73.824219 10.507812 C 73.824219 10.507812 63.160156 58.160156 49.996094 58.160156 C 36.832031 58.160156 26.171875 10.507812 26.171875 10.507812 "/>
+</g>
+</defs>
+<g id="surface1">
+<rect x="0" y="0" width="100" height="75" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+<use xlink:href="#surface8" mask="url(#mask1)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,14.117648%,26.274511%);fill-opacity:1;" d="M 51.941406 38.464844 L 51.941406 40.285156 C 52.382812 40.332031 53.15625 40.351562 54.261719 40.351562 C 56.339844 40.351562 58.199219 40.285156 59.832031 40.152344 L 60.628906 40.085938 L 60.628906 50 C 58.484375 50.75 55.441406 51.128906 51.496094 51.128906 C 47.550781 51.128906 44.53125 50.121094 42.445312 48.109375 C 40.355469 46.097656 39.3125 43.109375 39.3125 39.140625 C 39.3125 35.175781 40.339844 32.25 42.394531 30.371094 C 44.449219 28.492188 47.511719 27.554688 51.578125 27.554688 C 53.28125 27.554688 54.886719 27.65625 56.402344 27.851562 C 57.914062 28.050781 58.992188 28.25 59.632812 28.449219 L 60.628906 28.746094 L 60.628906 38.960938 C 58.707031 38.628906 55.808594 38.464844 51.941406 38.464844 "/>
+</g>
+</svg>
